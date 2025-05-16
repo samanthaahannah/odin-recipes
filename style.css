@@ -39,6 +39,7 @@ li{
     justify-content: center;
     margin: 0 auto;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .page{
