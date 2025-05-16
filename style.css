@@ -1,16 +1,56 @@
 *{
-    color: grey;
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: grey;
+}
+
+body{
+    background-color: bisque;
+}
+
+h1{
+    font-size: 42px;
     text-align: center;
+}
+
+img{
+    border-radius: 25px;
+}
+li{
+    margin-bottom: 8px;
 }
 
 .recipe{
     max-width: 400px;
     display: block;
-    padding: 5px;
-    font-size: 20px;
+    padding: 20px 5px 20px 5px;
+    font-size: 24px;
     border: solid 5px grey;
     margin: 8px auto;
     border-radius: 20px;
     text-decoration: none;
+    background-color: rgb(250, 238, 223);
+    text-align: center;
+    font-weight: bold;
+}
+
+.content{
+    max-width: 719px;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.page{
+    background-color: rgb(255, 240, 222);
+    border-radius: 25px;
+    padding: 2px 10px;
+    margin: 8px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.home{
+    font-size: 30px;
+    font-weight: bold;
 }
